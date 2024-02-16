@@ -1,0 +1,317 @@
+.banner{
+   
+   background-image:
+   linear-gradient(to right,#070211,  rgba(245, 246, 252, 0.12)),
+
+    url('/resources/Banner\ Image.png');
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+   height: 600px;
+   width: 1320px;
+   padding-top: 10px;
+   margin-left: 260px;
+   border-radius: 20px;
+   margin-top: 20px;
+   
+
+   
+   
+    
+   
+
+}
+.title h1{
+    color: #FFFFFF;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+
+.title> h3{
+    color: white;
+    margin-top: 250px;
+    font-size: 40px;
+    font-weight: 100px;
+}
+
+
+
+.discount{
+    text-align: center;
+    padding: 20px;
+}
+.discount-title{
+    color: #FF0000;
+    font-size: 80px;
+    margin-top: 100px;
+}
+.discount-more{
+font-weight: bold;}
+.discount-more p{
+    color: #FF0000 ;
+    font-size: 25px;
+}
+.discount-more h2{
+    font-size: 40px;
+}
+.discount-more img{
+margin-top: 50px;
+}
+
+/* Party Section */
+.party{
+    background-image:
+   linear-gradient(to right,#070211,  rgba(245, 246, 252, 0.12)),
+
+    url('/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+   height: 600px;
+   width: 1320px;
+   padding-top: 10px;
+   margin-left: 260px;
+   border-radius: 20px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 150px;
+}
+.party-info{
+    color:#FFFFFF;
+    margin: 60px;
+}
+.party-info a{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size: 26px;
+}
+.party-title{
+    
+    font-size: 60px;
+    width: 650px;
+}
+.party-description{
+    font-size: 20px;
+    width: 600px;
+}
+
+/* Venue style */
+.venue{
+    background-image: linear-gradient(#FEDFDF,white);
+    text-align: center;
+    width: 1320px;
+    height: 482px;
+    margin: 100px 260px ;
+}
+.venue h1{
+   font-size: 30px;
+   color: red;
+}
+.venue span{
+  color: #070211;
+}
+.join-button-primary{
+    background-color: #FF0000;
+    margin-top: 20px;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.venue-info{
+    padding: 150px;
+}
+
+/* Sell Style */
+
+.sell{
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+  
+
+    
+}
+.sell-info{
+    padding-top: 5px;
+    margin-bottom: 100px;
+
+}
+.sell-info h4{
+    font-size: 25px;    
+    padding: 10px;
+    margin: 5px;
+}
+.sell-info span{
+   color: #FF0000;
+}
+.sell-info h1{
+   font-size: 70px;
+}
+.sell-description{
+    color: #070211;
+    font-size: 20px;
+    width: 800px;
+    margin-left: 530px;
+    text-align: center;
+}
+.sell-img{
+    padding: 150px;
+    display: flex;
+    background-image: url(./resources/Rectangle\ 2.png),url('/resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position:  left  bottom,right top ;
+    background-size: auto 350px, 429px 453px;
+
+    
+}
+
+.badge {
+    margin-left: 500px;
+    padding: 10px;
+}
+
+.sell-div{
+    padding: 2px;
+}
+.gift{
+    width: 600px;
+  
+}
+
+/* Offer style */
+
+.offer{
+    display: flex;
+    gap: 80px;
+margin-left:90px ;
+}
+.offer-info {
+    width: auto;
+}
+.offer-info h2{
+    color: red;
+    font-size: 30px;
+}
+.offer-info h1{
+    font-size: 50px;
+}
+.offer-info p{
+    font-size: 20px;
+    width: 600px;
+}
+.offer-img{
+    border-radius: 50%;
+    border: 20px solid red;
+    padding: 20px;
+    
+}
+.offer-year h1{
+    color: red;
+    font-size: 60px;
+}
+.offer-year p{
+    color:#070211;
+    font-size: 20px;
+    width: 320px;    
+}
+
+/* items */
+.item-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+   justify-content: center;
+   margin-left: 100px;
+   margin-top: 100px;
+   margin-right: 100px;
+}
+.item h4{
+    color: red;
+}
+.item h1{
+    font-size: 50px;
+}
+.item p{
+    font-size: 20px;
+}
+.item{
+    margin: 100px;
+}
+.item-description{
+    width: 800px;
+}
+
+/* subscribe */
+.subscribe{
+    text-align: center;
+    background-image: linear-gradient(#FEDFDF,white);
+    margin: 200px;
+    padding: 100px;
+}
+.subscribe h1{
+    font-size: 50px;
+}
+.subscribe p{
+    font-size: 20px;
+}
+.subscribe-description{
+    width: 700px;
+    margin-left: 300px;    
+}
+.input-container {
+    display: inline-flex;
+    overflow: hidden;
+    width: 648px;
+    height: 78px;
+    border-radius: 50px;
+    margin: 20px;
+
+  }
+  
+  .rounded-input {
+    flex: 1;
+    border: 2px solid #ccc;
+    padding: 10px;
+  }
+  
+  .submit-button {
+    border: none;
+    background-color: #FF0000;
+    color: white;
+    padding: 20px 60px;
+    cursor: pointer;
+  }
+
+  /* footer */
+  footer{
+    background-color: #070211;
+    padding: 60px;
+  }
+  .contact{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .contact-info {
+    color: white;
+   
+  }
+  .rights{
+    display: flex;
+    color: #FEDFDF;
+    justify-content: space-between;
+    font-size: 24px;
+  }
+  .hr{
+   
+      margin-top: 60px;
+    
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
